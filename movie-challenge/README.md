@@ -1,4 +1,4 @@
-# Movie-challenge
+# Movie-challenge con Framework
 
 ## Índice
 
@@ -20,7 +20,7 @@ Creemos que hay una gran oportunidad de proponer productos/experiencias innovado
 
 El objetivo de aprendizaje de este proyecto fue diseñar y construir una interfaz web donde se pueda visualizar y traer data de una API (TMDB), entendiendo primeramente las necesidades del usuario.
 
-Nuestro producto final es una página web que permite visualizar una lista de peliculas top, además se puede buscar en ella las peliculas por su nombre.
+Nuestro producto final es una página web que permite visualizar una lista de películas top, además cuenta con un buscador que permite encontrar películas por su nombre.
 
 ## 3. Organizacion
 
@@ -38,9 +38,9 @@ Para las historias de usuario me basé principalmente en las necesidades para lo
 
 ## 5. Diseño de la Interfaz de Usuario
 
-#### Prototipo de alta fidelidad
+#### Prototipo de alta fidelidad:
 
-El prototipo de alta fidelidad lo desarrollamos en [Figma](https://www.figma.com/file/N7Rmlj9BIobdLKdh9mMtEA/Untitled?type=design&node-id=0-1&mode=design&t=wMpfFPVpsm0vxq0H-0).
+El prototipo de alta fidelidad lo desarrollé en [Figma](https://www.figma.com/file/N7Rmlj9BIobdLKdh9mMtEA/Untitled?type=design&node-id=0-1&mode=design&t=wMpfFPVpsm0vxq0H-0).
 
 ![altafidelidad1](./img-readme/diseño-pc.jpeg)
 
@@ -50,9 +50,9 @@ El prototipo de alta fidelidad lo desarrollamos en [Figma](https://www.figma.com
 
 **1. Home del proyecto:**
 
-El proyecto inicia en esta página, en donde tienes toda la lista de las peliculas top, un buscador y un boton de Inicio, cabe mencionar que la lista de peliculas se ha traido desde la API(TMDB) y se ha trabajado con la librería R[React].
+El proyecto inicia en esta página, en donde tienes toda la lista de las peliculas top, un buscador y un boton de Inicio, cabe mencionar que la lista de peliculas se ha traido desde la API(TMDB) y se ha trabajado con la librería[React](https://react.dev/).
 
-![Homepage](./img-readme/web-01.jpeg)
+![Home](./img-readme/web-01.jpeg)
 
 **2. Detalles:**
 
@@ -67,10 +67,10 @@ Aquí se puede escribir el nombre de la película que se quiere encontrar y al d
 
 ![Buscar-pelicula](./img-readme/web-04.jpeg)
 
-De igual manera si tocamos en cada imagen nos mostrará los detalles de esa película:
+De igual manera si tocamos en cada imagen nos mostrará los detalles de la película:
 
 ![Detalles-busqueda](./img-readme/web-05.jpeg)
 
 **4. Boton-Inicio:**
 
-Se ha implementado este boton para poder regresar atras sin tener que toc ar la flecha que aparece en la página.
+Se ha implementado este botón para poder regresar atrás sin tener que toc ar la flecha que aparece en la página.
